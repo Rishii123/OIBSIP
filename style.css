@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lugrasimo&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lugrasimo&family=Pangolin&display=swap');
+
+.sec-01 {
+    background-image: linear-gradient(rgb(0 0 0 / 34%), rgb(0 0 0 / 36%)), url(firstt.jpg);
+    height: 50vw;
+    width: 100%;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    /* margin-left: 670px; */
+    justify-content: space-between;
+}
+
+.name {
+    display: block;
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: Roboto Slab;
+    font-weight: 900;
+    color: beige;
+    margin-top: 5px;
+}
+
+.input {
+    width: 400px;
+    border-radius: 7px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin-top: 15px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    color: azure;
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.title {
+    color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    justify-items: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 38px;
+    margin-left: 70px;
+    margin-right: 70px;
+    /* font-weight: lighter; */
+
+}
+.sec-01 ul li a{
+    color: azure;
+}
+
+/* delivery page */
+
+.delivery {
+    display: flex;
+    /* min-height: 100vh;
+    background: linear-gradient(15deg,#03d5f4,#95f32169); */
+    background-image: linear-gradient(rgb(0 0 0 / 34%), rgb(0 0 0 / 36%)), url(bc1.jpeg);
+    background-size: cover;
+    opacity: 0.9;
+    /* border: 36px solid white; */
+    width: 100%;
+    height: 50vw;
+    color: wheat;
+}
+
+.left {
+    width: 50vw;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20vw;
+}
+
+.right {
+    width: 50vw;
+}
+
+.bt-01 {
+    width: 100px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: #e90056;
+    border: 3px solid #000000;
+    padding: 5px;
+    margin-top: 5px;
+    ;
+}
+
+.bt-01:hover {
+    transform: scale(1.2);
+}
+
+.scooty {
+    width: 20vw;
+    height: 20vw;
+    margin-top: 15vw;
+    margin-left: 10vw;
+    border-radius: 9px;
+    border: 3px solid black;
+}
+
+
+/* 
+page 2 */
+.se2 {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.sec-02 {
+    width: 100%;
+    height: 150vw;
+    background-color:white;
+    border: 4px solid black;
+}
+
+/* .sec-o2 h1 {
+    text-align: center;
+    font-size: 40px;
+} */
+
+/* .hea{
+    font-size: 35px;
+} */
+.items {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.it1 {
+    /* background-image: url(it1.jpeg); */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.it2 {
+    /* background-image: url(it2.jpeg); */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.it3 {
+    /* background-image: url(it3.jpeg); */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    margin-left: 20px12 margin-right: 20px;
+}
+
+.it4 {
+    /* background-image: url(it4.jpeg); */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.it5 {
+    /* background-image: url(it5.jpeg); */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.it6 {
+    /* background-image: url(it6.jpeg); */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.it7 {
+    /* background-image: url(it7.jpeg); */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.it8 {
+    /* background-image: url(it8.jpeg); */
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.it1:hover {
+    transform: scale(1.2);
+}
+
+.it2:hover {
+    transform: scale(1.2);
+}
+
+.it3:hover {
+    transform: scale(1.2);
+}
+
+.it4:hover {
+    transform: scale(1.2);
+}
+
+.it5:hover {
+    transform: scale(1.2);
+}
+
+.it6:hover {
+    transform: scale(1.2);
+}
+
+.it7:hover {
+    transform: scale(1.2);
+}
+
+.it8:hover {
+    transform: scale(1.2);
+}
+
+/* Cards */
+
+.heading {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lugrasimo', cursive;
+    /* margin-left: 10px; */
+
+}
+
+.row {
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.card {
+    height: 200px;
+    width: 240px;
+    border-radius: 4px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: antiquewhite;
+}
+
+.cr {
+    background-size: cover;
+    width: 240px;
+    height: 180px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+
+.offer{
+    height: 45vw;
+    width:100%;
+    background-image: linear-gradient(rgb(0 0 0 / 34%), rgb(0 0 0 / 36%)), url(offer.jpeg);
+    background-size: cover;
+}
+
+.off{
+    height:760px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: goldenrod;
+    margin-left: 200px;
+}
+.get{
+    font-size: 80px;
+}
+.fifty{
+    font-size: 150px;
+}
+.bt2{
+    height:50px;
+    width: 120px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color: rgb(248, 69, 69);
+    margin-left: 4px;
+    font-family: 'Roboto Slab';
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.roww{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   display: flex;
+   flex-direction: column;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: inline-block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0px 10px 10px 0px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+    font-size: 25px;
+    justify-content: center;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 967px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 874px){
+  .footer-col{
+    width: 100%;
+}
+}
+.footer-col .social-links .center{
+    margin-top: 12px;
+}
